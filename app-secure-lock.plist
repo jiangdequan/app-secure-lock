@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <!-- 该应用的名称 -->
+    <key>CFBundleName</key>
+    <string>app-secure-lock</string>
+
+    <!-- 该应用的标识符 -->
+    <key>CFBundleIdentifier</key>
+    <string>io.github.appsecurelock</string>
+
+    <!-- 版本号 -->
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <!-- 应用的主版本号 -->
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+
+    <!-- 应用的图标 -->
+    <key>CFBundleIconFile</key>
+    <string>icon.png</string>
+
+    <!-- 适配的系统环境 -->
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+
+    <!-- 启动时显示的名称 -->
+    <key>CFBundleDisplayName</key>
+    <string>App Secure Lock</string>
+
+    <!-- 自定义应用设置或权限 -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <!-- 权限声明（如有需要） -->
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+Package: app-secure-lock
+Name: app-secure-lock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A universal app lock tool based on Theos, designed for TrollStore. It uses the current date as a password to lock apps by injecting a dynamic library into the target app.
+Maintainer: jiangdequan1314@gmail.com
+Author: jiangdequan
+Section: Tweaks;Utilities
+Depends: com.apple.mobile.origin
+License: MIT
+Homepage: https://github.com/jiangdequan/app-secure-lock
